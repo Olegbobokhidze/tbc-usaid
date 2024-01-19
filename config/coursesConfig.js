@@ -2,7 +2,7 @@ const coursesConfig = [
   {
     id: 1,
     title: "iOS Development",
-    image: "../assets/images/iosdevelopment.webp",
+    image: "../assets/images/ios-development.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები"
   },
@@ -25,7 +25,7 @@ const coursesConfig = [
   {
     id: 4,
     title: "Advanced Python",
-    image: "../assets/images/advancedpython.webp",
+    image: "../assets/images/advanced-python.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები"
 
@@ -65,7 +65,7 @@ const coursesConfig = [
   {
     id: 9,
     title: "Information Security Governance",
-    image: "../assets/images/informationsecurity.webp",
+    image: "../assets/images/information-security.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები"
   },
