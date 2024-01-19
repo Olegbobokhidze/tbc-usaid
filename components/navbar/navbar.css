@@ -4,11 +4,7 @@
   height: 69px;
   display: flex;
   align-items: center;
-  padding-left: 23px;
-  padding-right: 23px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  justify-content: space-between;
+  justify-content: center;
 }
 .menuOpen .mobileMenu {
   display: flex;
@@ -49,6 +45,15 @@
   gap: 38px;
   padding: 16px;
   flex-direction: column;
+}
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  gap: 50px;
+  padding-left: 23px;
+  padding-right: 23px;
 }
 .item {
   margin: 0;
@@ -123,8 +128,7 @@
   }
 }
 @media only screen and (min-width: 1050px) {
-  .navbar{
-    padding-left: calc((100% - 990px) / 2);
-    padding-right: calc((100% - 990px) / 2);
+  .navbarContainer {
+    width: 1000px;
   }
 }
