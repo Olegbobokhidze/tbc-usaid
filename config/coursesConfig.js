@@ -1,57 +1,73 @@
 const coursesConfig = [
   {
     id: 1,
-    title: "Course 1",
-    image: "path/to/course1-image.jpg",
-    description: "Description for Course 1",
+    title: "iOS Development",
+    image: "../assets/images/iosdevelopment.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
   },
   {
     id: 2,
-    title: "Course 2",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "React",
+    image: "../assets/images/react.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 3,
-    title: "Course 3",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "Intro to Python",
+    image: "../assets/images/python.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 4,
-    title: "Course 4",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "Advanced Python",
+    image: "../assets/images/advancedpython.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 5,
-    title: "Course 5",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "Advanced Cybersecurity Course",
+    image: "../assets/images/cybersecurity.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 6,
-    title: "Course 6",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "ToT - Training of Trainers",
+    image: "../assets/images/tot.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 7,
-    title: "Course 7",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "Blockchain",
+    image: "../assets/images/blockchain.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 8,
-    title: "Course 8",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "DevOps",
+    image: "../assets/images/devops.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
+
   },
   {
     id: 9,
-    title: "Course 9",
-    image: "path/to/course2-image.jpg",
-    description: "Description for Course 2",
+    title: "Information Security Governance",
+    image: "../assets/images/informationsecurity.webp",
+    description: "რეგისტრაცია დასრულებულია",
+    details: "კურსის დეტალები"
   },
 ];
 
