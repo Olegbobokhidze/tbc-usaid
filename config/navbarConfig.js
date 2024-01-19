@@ -4,3 +4,5 @@ const navbarConfig = [
   { id: 3, title: "TBC x USAID" },
   { id: 4, title: "რისკები" },
 ];
+
+export default navbarConfig;

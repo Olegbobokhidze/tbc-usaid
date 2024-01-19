@@ -1,0 +1,123 @@
+.navbar {
+  background: #1a1e1f;
+  width: 100%;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  justify-content: space-between;
+}
+.menuOpen .mobileMenu {
+  display: flex;
+}
+.menuOpen .mobileMenuContainer {
+  right: 0;
+}
+.mobileMenu {
+  display: none;
+  position: relative;
+}
+.mobileOverlay {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  background-color: #1d1a1a;
+  z-index: 10;
+  opacity: 0.6;
+}
+.mobileMenuContainer {
+  background-color: #222222;
+  position: fixed;
+  width: 57%;
+  height: 100vh;
+  top: 0;
+  right: -57%;
+  z-index: 20;
+  transition: all 0.5s ease-in-out;
+  color: #f4f4f4;
+  font-weight: bold;
+  text-align: left;
+  font-size: medium;
+}
+.itemsWrapper {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  gap: 38px;
+  padding: 16px;
+  flex-direction: column;
+}
+.item {
+  margin: 0;
+}
+.active {
+  color: #0091da;
+}
+.itemsDesktopWrapper {
+  display: none;
+  align-items: flex-end;
+  flex-direction: row;
+  color: white;
+}
+.itemDesktop {
+    margin: 0;
+}
+.hamburgerWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 7.4px;
+  cursor: pointer;
+  z-index: 30;
+}
+.hamburgerTopStick {
+  width: 13px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #dbdbdb;
+  align-self: flex-start;
+}
+.hamburgerMiddleStick {
+  width: 26px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #dbdbdb;
+}
+.hamburgerBottomStick {
+  width: 13px;
+  height: 3px;
+  border-radius: 2px;
+  background-color: #dbdbdb;
+  align-self: flex-end;
+}
+.rotate .hamburgerTopStick {
+  transform: translateX(2px) translateY(6px) rotate(-135deg);
+  opacity: 0.5;
+  transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+.rotate .hamburgerMiddleStick {
+  transform: rotate(-45deg);
+  opacity: 0.5;
+  transition: transform 0.33s ease-out;
+}
+
+.rotate .hamburgerBottomStick {
+  transform: translateX(-2px) translateY(-6px) rotate(-135deg);
+  opacity: 0.5;
+  transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+}
+
+@media only screen and (min-width: 768px) {
+  .hamburgerWrapper {
+    display: none;
+  }
+  .menuOpen .mobileMenu {
+    display: none;
+  }
+  .itemsDesktopWrapper{
+    display: flex;
+  }
+}
