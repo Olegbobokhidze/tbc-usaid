@@ -1,0 +1,42 @@
+.motto {
+  background-color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: left;
+  padding: 23px;
+}
+.mottoText {
+  color: #f4f4f4;
+  font-size: 16px;
+  line-height: 1.6em;
+  letter-spacing: normal;
+  width: 100%;
+}
+
+.mottoLink {
+  color: #16abec;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+}
+.mottoLink:hover {
+    color: #eae3d9;
+}
+@media only screen and (min-width: 1050px) {
+    .motto {
+      align-items: center;
+      padding: 0px;
+    }
+    .mottoText {
+        font-size: 28px;
+        width: 1000px;
+        margin-top: 62px;
+    }
+    .mottoLink {
+        font-size: 28px;
+        width: 1000px;
+        margin-bottom: 62px;
+    }
+  }

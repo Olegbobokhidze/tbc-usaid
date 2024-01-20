@@ -20,6 +20,7 @@
     />
     <link rel="stylesheet" href="assets/styles/main.css" />
     <link rel="stylesheet" href="components/navbar/navbar.css" />
+    <link rel="stylesheet" href="components/motto/motto.css" />
     <link rel="stylesheet" href="components/slider/slider.css" />
     <link rel="stylesheet" href="components/accordion/accordion.css" />
     <link rel="stylesheet" href="components/courses/courses.css" />
@@ -32,26 +33,38 @@
     <script defer src="components/courses/courses.js"></script>
   </head>
   <body>
-    <div class="mobileMenu">
-      <div class="mobileMenuContainer"></div>
-      <div class="mobileOverlay"></div>
-    </div>
-    <div class="navbar">
-      <div class="navbarContainer">
-        <img src="./assets/icons/iconTbcNavbar.svg" class="navbarLogo" />
-        <div class="hamburgerWrapper">
-          <div class="hamburgerTopStick"></div>
-          <div class="hamburgerMiddleStick"></div>
-          <div class="hamburgerBottomStick"></div>
+    <main>
+      <div class="mobileMenu">
+        <div class="mobileMenuContainer"></div>
+        <div class="mobileOverlay"></div>
+      </div>
+      <div class="navbar">
+        <div class="navbarContainer">
+          <img src="./assets/icons/iconTbcNavbar.svg" class="navbarLogo" />
+          <div class="hamburgerWrapper">
+            <div class="hamburgerTopStick"></div>
+            <div class="hamburgerMiddleStick"></div>
+            <div class="hamburgerBottomStick"></div>
+          </div>
+          <div class="itemsDesktopWrapper"></div>
         </div>
-        <div class="itemsDesktopWrapper"></div>
       </div>
-    </div>
-    <div class="header">
-      <div class="headerContainer">
-        <h1>TBC x USAID</h1>
-        <h2>ტექნოლოგიური განათლებისთვის</h2>
+      <div class="header">
+        <div class="headerContainer">
+          <h1 class="headerTitle">TBC x USAID</h1>
+          <h2 class="headerText">ტექნოლოგიური განათლებისთვის</h2>
+        </div>
       </div>
-    </div>
+      <div class="motto">
+        <h2 class="mottoText">
+          „ TBC x USAID - ტექნოლოგიური განათლებისთვის “ პროგრამა საინფორმაციო
+          ტექნოლოგიებით დაინტერესებულ ადამიანებს გთავაზობთ სრულად დაფინანსებულ
+          ონლაინ საგანმანათლებლო პრაქტიკულ კურსებს სხვადასხვა ICT მიმართულებით.
+          წარმატებულ კურსდამთავრებულებს ეძლევათ შესაძლებლობა დასაქმდნენ თიბისისა
+          და მის პარტნიორ კომპანიებში.
+        </h2>
+        <a class="mottoLink" href="#">გაიგე მეტი</a>
+      </div>
+    </main>
   </body>
 </html>
