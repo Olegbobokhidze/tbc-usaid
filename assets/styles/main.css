@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "tbc-font";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/tbc-font.woff2") format("woff");
+}
 body {
   margin: 0;
   padding: 0;
@@ -6,4 +13,5 @@ body {
   height: 100vh;
   box-sizing: border-box;
   overflow-x: hidden;
+  font-family: "tbc-font", sans-serif;
 }

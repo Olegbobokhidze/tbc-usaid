@@ -12,14 +12,16 @@
   line-height: 1.6em;
   letter-spacing: normal;
   width: 100%;
+  font-weight: normal;
 }
 
 .mottoLink {
   color: #16abec;
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 16px;
   text-decoration: none;
+
 }
 .mottoLink:hover {
     color: #eae3d9;
@@ -35,8 +37,8 @@
         margin-top: 62px;
     }
     .mottoLink {
-        font-size: 28px;
         width: 1000px;
+        font-size: 20px;
         margin-bottom: 62px;
     }
   }
