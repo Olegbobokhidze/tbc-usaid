@@ -1,0 +1,87 @@
+.carouselTitle {
+  font-size: 18px;
+  color: #f4f4f4;
+  margin-bottom: 50px;
+  width: 100%;
+  align-self: flex-start;
+  font-weight: normal;
+}
+.carouselContainer {
+  background-color: #2b2b2b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 23px;
+}
+.carouselWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.carouselNav {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+li::marker {
+  color: #fff;
+  height: 10px;
+  font-size: 20px;
+}
+.marker {
+  cursor: pointer;
+}
+.arrowsIcon {
+  display: none;
+  width: 20px;
+  cursor: pointer;
+  height: 40px;
+}
+.arrowsIcon:hover {
+  opacity: 0.7;
+}
+.arrowRight {
+  rotate: 180deg;
+}
+@media screen and (min-width: 768px) {
+  .arrowsIcon {
+    display: block;
+  }
+  .carouselWrapper {
+    justify-content: space-between;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .carousel {
+    width: 1000px;
+  }
+  .carouselContainer {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .carousel {
+    flex-direction: row;
+  }
+  .carouselWrapper {
+    gap: 50px;
+  }
+  .carouselTitle {
+    font-size: 24px;
+    align-self: center;
+    width: 1000px;
+  }
+  .carouselNav {
+    margin-bottom: 82px;
+  }
+}
