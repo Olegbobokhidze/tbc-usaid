@@ -29,7 +29,7 @@
     <script defer src="assets/scripts/main.js"></script>
     <script type="module" src="components/navbar/navbar.js"></script>
     <script type="module" src="components/carousel/carousel.js"></script>
-    <script defer src="components/accordion/accordion.js"></script>
+    <script type="module" src="components/accordion/accordion.js"></script>
     <script type="module" src="components/courses/courses.js"></script>
   </head>
   <body>
@@ -72,16 +72,29 @@
       <div class="carouselContainer">
         <h1 class="carouselTitle">პროექტის პარტნიორები</h1>
         <div class="carouselWrapper">
-          <img class="arrowsIcon arrowLeft" src="./assets/icons/iconArrowLeft.svg" />
-          <div class="carousel">
-          </div>
-          <img class="arrowsIcon arrowRight" src="./assets/icons/iconArrowRight.svg" />
+          <img
+            class="arrowsIcon arrowLeft"
+            src="./assets/icons/iconArrowLeft.svg"
+          />
+          <div class="carousel"></div>
+          <img
+            class="arrowsIcon arrowRight"
+            src="./assets/icons/iconArrowRight.svg"
+          />
         </div>
         <ul class="carouselNav">
           <li class="marker marker1"></li>
           <li class="marker marker2"></li>
           <li class="marker marker3"></li>
         </ul>
+      </div>
+      <div class="accordionContainer">
+        <div class="accordionTexts">
+          <h1 class="accordionTitle">ხშირად დასმული კითხვები</h1>
+          <a class="accordionDesktopLink" href="#">ყველა კითხვა</a>
+        </div>
+        <div class="accordions"></div>
+        <a class="accordionMobileLink" href="#">ყველა კითხვა</a>
       </div>
     </main>
   </body>
