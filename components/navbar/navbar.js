@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const body = document.body;
   const mobileMenuContainer = document.querySelector(".mobileMenuContainer");
   const itemsDesktopWrapper = document.querySelector(".itemsDesktopWrapper");
+  const navbar = document.querySelector(".navbar");
   let itemsWrapper;
 
   const toggleMenu = () => {
@@ -15,7 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!itemsWrapper) {
         itemsWrapper = document.createElement("div");
         itemsWrapper.classList.add("itemsWrapper");
-
+        window.scrollTo(0, 0);
+        body.style.overflow = "hidden";
+        navbar.style.position = "static";
         navbarConfig.map((item) => {
           const paragraph = document.createElement("p");
           paragraph.textContent = item.title;
@@ -31,6 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
       mobileMenuContainer.appendChild(itemsWrapper);
     } else {
       if (itemsWrapper) {
+        body.style.overflow = "auto";
+        navbar.style.position = "fixed";
         mobileMenuContainer.removeChild(itemsWrapper);
         itemsWrapper = null;
       }

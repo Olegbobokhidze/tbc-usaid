@@ -5,6 +5,10 @@
   font-display: swap;
   src: url("../../fonts/tbc-font.woff2") format("woff");
 }
+@font-face {
+  font-family: "tbcBOLD";
+  src: url('../../fonts/TBCContractica-Black.ttf') format("truetype");
+}
 body {
   margin: 0;
   padding: 0;
