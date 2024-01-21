@@ -1,7 +1,7 @@
 .navbar {
   background: #1a1e1f;
   width: 100%;
-  height: 69px;
+  height: 84px;
   position: fixed;
   display: flex;
   align-items: center;
@@ -56,9 +56,13 @@
   padding-left: 23px;
   padding-right: 23px;
 }
+.navbarLogo{
+  height:41px;
+}
 .item {
   margin: 0;
   cursor: pointer;
+  font-size: 14px;
 }
 .item:hover {
   color: #0091da;
@@ -69,9 +73,11 @@
 .itemsDesktopWrapper {
   display: none;
   align-items: flex-end;
+  justify-content: space-between;
   flex-direction: row;
   color: white;
   gap: 50px;
+  margin-right: 12px;
 }
 .itemDesktop {
   margin: 0;
@@ -134,6 +140,8 @@
 }
 @media only screen and (min-width: 1050px) {
   .navbarContainer {
-    width: 1000px;
+    width: 980px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
