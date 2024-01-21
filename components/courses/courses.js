@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <p class="courseDescription">${course.description}</p>
               <div class="linkContainer">
                   <img src="./assets/icons/iconArrowCourse.svg" />
-                  <a href="#" class="courseLink">${course.details}</a>
+                  <a href="${course.link}" class="courseLink">${course.details}</a>
               </div>
           </div>
     `;

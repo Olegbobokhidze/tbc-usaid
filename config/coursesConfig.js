@@ -4,14 +4,16 @@ const coursesConfig = [
     title: "iOS Development",
     image: "../assets/images/ios-development.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/ios-development"
   },
   {
     id: 2,
     title: "React",
     image: "../assets/images/react.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/react"
 
   },
   {
@@ -19,7 +21,8 @@ const coursesConfig = [
     title: "Intro to Python",
     image: "../assets/images/python.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/python-basic"
 
   },
   {
@@ -27,7 +30,8 @@ const coursesConfig = [
     title: "Advanced Python",
     image: "../assets/images/advanced-python.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/python-advance"
 
   },
   {
@@ -35,7 +39,8 @@ const coursesConfig = [
     title: "Advanced Cybersecurity Course",
     image: "../assets/images/cybersecurity.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/information-security-advance"
 
   },
   {
@@ -43,7 +48,8 @@ const coursesConfig = [
     title: "ToT - Training of Trainers",
     image: "../assets/images/tot.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/training-of-trainers"
 
   },
   {
@@ -51,7 +57,8 @@ const coursesConfig = [
     title: "Blockchain",
     image: "../assets/images/blockchain.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/blockchain"
 
   },
   {
@@ -59,7 +66,8 @@ const coursesConfig = [
     title: "DevOps",
     image: "../assets/images/devops.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/devops"
 
   },
   {
@@ -67,7 +75,9 @@ const coursesConfig = [
     title: "Information Security Governance",
     image: "../assets/images/information-security.webp",
     description: "რეგისტრაცია დასრულებულია",
-    details: "კურსის დეტალები"
+    details: "კურსის დეტალები",
+    link: "https://www.tbcacademy.ge/usaid/information-security-basic"
+
   },
 ];
 
