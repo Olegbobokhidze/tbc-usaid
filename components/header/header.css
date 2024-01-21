@@ -17,6 +17,7 @@
   gap: 35px;
   justify-content: center;
   padding: 23px;
+  line-height: 1.6em;
 }
 
 .headerTitle,
@@ -31,10 +32,9 @@
   font-family: "tbcBOLD";
 }
 .headerText {
-  display: inline-block;
   font-size: 22px;
   font-weight: 700;
-  font-family: "tbcBOLD";
+  font-family: "tbcBOLD", sans-serif;
 }
 @media only screen and (min-width: 1050px) {
   .headerContainer {
