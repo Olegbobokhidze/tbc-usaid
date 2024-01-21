@@ -2,6 +2,7 @@
   background: #1a1e1f;
   width: 100%;
   height: 69px;
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
