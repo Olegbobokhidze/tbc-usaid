@@ -18,7 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         itemsWrapper.classList.add("itemsWrapper");
         body.style.overflow = "hidden";
         navbarConfig.map((item) => {
-          const paragraph = document.createElement("p");
+          const paragraph = document.createElement("a");
+          paragraph.href = item.link;
           paragraph.textContent = item.title;
           paragraph.classList.add("item");
           itemsWrapper.appendChild(paragraph);
@@ -40,8 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
   navbarConfig.map((item) => {
-    const paragraph = document.createElement("p");
+    const paragraph = document.createElement("a");
     paragraph.textContent = item.title;
+    paragraph.href = item.link;
     paragraph.classList.add("item");
     itemsDesktopWrapper.appendChild(paragraph);
 
