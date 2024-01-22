@@ -16,9 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!itemsWrapper) {
         itemsWrapper = document.createElement("div");
         itemsWrapper.classList.add("itemsWrapper");
-        window.scrollTo(0, 0);
         body.style.overflow = "hidden";
-        navbar.style.position = "static";
         navbarConfig.map((item) => {
           const paragraph = document.createElement("p");
           paragraph.textContent = item.title;

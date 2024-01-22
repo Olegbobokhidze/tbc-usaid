@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 1000;
+  top: 0;
+  opacity: 0.9;
 }
 .menuOpen .mobileMenu {
   display: flex;
@@ -19,8 +22,8 @@
 }
 .mobileOverlay {
   width: 100vw;
-  height: 100vh;
-  position: absolute;
+  height: 100%;
+  position: fixed;
   background-color: #1d1a1a;
   z-index: 10;
   opacity: 0.6;
@@ -32,7 +35,7 @@
   height: 100vh;
   top: 0;
   right: -57%;
-  z-index: 20;
+  z-index: 10000;
   transition: all 0.5s ease-in-out;
   color: #f4f4f4;
   font-weight: bold;
@@ -56,19 +59,20 @@
   padding-left: 23px;
   padding-right: 23px;
 }
-.navbarLogo{
-  height:41px;
+.navbarLogo {
+  height: 41px;
 }
 .item {
   margin: 0;
   cursor: pointer;
   font-size: 14px;
+  transition: all 0.3s ease-in-out;
 }
 .item:hover {
-  color: #0091da;
+  color: #16abec;
 }
 .active {
-  color: #0091da;
+  color: #16abec;
 }
 .itemsDesktopWrapper {
   display: none;
@@ -87,7 +91,10 @@
   flex-direction: column;
   gap: 7.4px;
   cursor: pointer;
-  z-index: 30;
+  z-index: 30000;
+  position: fixed;
+  right: 23px;
+  top: 35px;
 }
 .hamburgerTopStick {
   width: 13px;
@@ -136,6 +143,9 @@
   }
   .itemsDesktopWrapper {
     display: flex;
+  }
+  .navbar{
+    opacity: 1;
   }
 }
 @media only screen and (min-width: 1050px) {

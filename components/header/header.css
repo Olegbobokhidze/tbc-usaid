@@ -7,14 +7,15 @@
   background-position: center;
   background-repeat: no-repeat;
   align-items: left;
+  margin-top:84px;
 }
 
 .headerContainer {
-  height: 350px;
+  height: 310px;
   display: flex;
   flex-direction: column;
   align-items: left;
-  gap: 35px;
+  gap: 20px;
   justify-content: center;
   padding: 23px;
   line-height: 1.6em;
@@ -27,18 +28,21 @@
   padding: 0;
 }
 .headerTitle {
-  font-size: 24px;
+  font-size: 30px;
   font-weight: 900;
   font-family: "tbcBOLD";
 }
 .headerText {
-  font-size: 22px;
+  font-size: 28px;
   font-weight: 700;
+  text-wrap: wrap;
+  line-height: 50px;
   font-family: "tbcBOLD", sans-serif;
 }
 @media only screen and (min-width: 1050px) {
   .headerContainer {
     width: 1000px;
+    gap: 30px;
   }
   .header {
     align-items: center;
