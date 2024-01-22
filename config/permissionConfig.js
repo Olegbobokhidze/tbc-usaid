@@ -240,3 +240,5 @@ const permissionConfig = [
     ],
   },
 ];
+
+export default permissionConfig;
