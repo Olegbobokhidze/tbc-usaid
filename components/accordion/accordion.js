@@ -11,7 +11,13 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const questionElement = document.createElement("div");
     questionElement.classList.add("accordionQuestion");
-    questionElement.innerHTML = accordion.question;
+    const questionParagraph = document.createElement("p");
+    questionParagraph.innerHTML = accordion.question;
+    const questionArrow = document.createElement("img");
+    questionArrow.src = "../../assets/icons/iconArrowAccordion.svg";
+    questionArrow.classList.add("accordionArrow");
+    questionElement.appendChild(questionParagraph);
+    questionElement.appendChild(questionArrow);
 
     const answersElement = document.createElement("div");
     answersElement.classList.add("accordionAnswers");
@@ -39,9 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
     answerParagraph.innerHTML = accordion.answer;
     answersElement.appendChild(answerParagraph);
 
-    questionElement.addEventListener("click", () => {
+    accordionElement.addEventListener("click", () => {
       accordion.isOpen = !accordion.isOpen;
-
+      questionArrow.style.transform = accordion.isOpen
+        ? "rotate(180deg)"
+        : "rotate(0deg)";
       accordionsConfig.forEach((acc) => {
         if (acc !== accordion) {
           acc.isOpen = false;
@@ -50,6 +58,10 @@ document.addEventListener("DOMContentLoaded", () => {
             accordionsContainer.children[accIndex].querySelector(
               ".accordionAnswers"
             );
+          const accArrow = accordionsContainer.children[accIndex].querySelector(
+            ".accordionArrow"
+          );
+          accArrow.style.transform = "rotate(0deg)";
           accElement.style.display = "none";
         }
       });
