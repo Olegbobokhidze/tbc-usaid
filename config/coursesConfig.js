@@ -2,7 +2,7 @@ const coursesConfig = [
   {
     id: 1,
     title: "iOS Development",
-    image: "../assets/images/ios-development.webp",
+    image: "../assets/images/courses/ios-development.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/ios-development"
@@ -10,7 +10,7 @@ const coursesConfig = [
   {
     id: 2,
     title: "React",
-    image: "../assets/images/react.webp",
+    image: "../assets/images/courses/react.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/react"
@@ -19,7 +19,7 @@ const coursesConfig = [
   {
     id: 3,
     title: "Intro to Python",
-    image: "../assets/images/python.webp",
+    image: "../assets/images/courses/python.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/python-basic"
@@ -28,7 +28,7 @@ const coursesConfig = [
   {
     id: 4,
     title: "Advanced Python",
-    image: "../assets/images/advanced-python.webp",
+    image: "../assets/images/courses/advanced-python.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/python-advance"
@@ -37,7 +37,7 @@ const coursesConfig = [
   {
     id: 5,
     title: "Advanced Cybersecurity Course",
-    image: "../assets/images/cybersecurity.webp",
+    image: "../assets/images/courses/cybersecurity.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/information-security-advance"
@@ -46,7 +46,7 @@ const coursesConfig = [
   {
     id: 6,
     title: "ToT - Training of Trainers",
-    image: "../assets/images/tot.webp",
+    image: "../assets/images/courses/tot.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/training-of-trainers"
@@ -55,7 +55,7 @@ const coursesConfig = [
   {
     id: 7,
     title: "Blockchain",
-    image: "../assets/images/blockchain.webp",
+    image: "../assets/images/courses/blockchain.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/blockchain"
@@ -64,7 +64,7 @@ const coursesConfig = [
   {
     id: 8,
     title: "DevOps",
-    image: "../assets/images/devops.webp",
+    image: "../assets/images/courses/devops.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/devops"
@@ -73,7 +73,7 @@ const coursesConfig = [
   {
     id: 9,
     title: "Information Security Governance",
-    image: "../assets/images/information-security.webp",
+    image: "../assets/images/courses/information-security.webp",
     description: "რეგისტრაცია დასრულებულია",
     details: "კურსის დეტალები",
     link: "https://www.tbcacademy.ge/usaid/information-security-basic"
