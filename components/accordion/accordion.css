@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 60px;
+  
 }
 .accordionTexts {
   display: flex;
@@ -15,6 +16,7 @@
   text-align: center;
   width: 100%;
   margin-top: 40px;
+  
 }
 .accordions {
   width: 100%;
@@ -24,13 +26,11 @@
 }
 .accordion {
   color: #f4f4f4;
-  align-self: flex-start;
+  align-self: center;
   font-size: 14px;
-  border: 1px;
-  width: 100%;
-  padding-bottom: 20px;
-  border-bottom: solid 1px #555555;
+  width: calc(100% - 46px);
   cursor: pointer;
+  border-bottom: solid 1px #333333;
 }
 .accordionQuestion {
   font-size: 18px;
@@ -59,6 +59,7 @@
   font-weight: 700;
   font-size: 16px;
   text-decoration: none;
+  margin-top: 50px;
   margin-bottom: 40px;
 }
 .accordionDesktopLink:hover {
@@ -79,15 +80,17 @@
 
 @media only screen and (min-width: 1050px) {
   .accordionTexts {
-    width: 1000px;
+    width: 900px;
     margin-top: 100px;
     margin-bottom: 20px;
   }
   .accordions {
-    width: 1000px;
+    width: 900px;
   }
   .accordion {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
+    align-self: flex-start;
+    width: 100%;
   }
   .accordionDesktopLink {
     display: block;
@@ -98,5 +101,8 @@
   .accordionTitle {
     font-size: 24px;
     padding: 0px;
+  }
+  .accordionContainer{
+    padding-bottom: 80px;
   }
 }
