@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
     permissionItem.addEventListener("click", () => {
       container.style.display = "flex";
       container.scrollTop = 0;
-      body.style.overflow = "hidden";
       overlay.style.display = "flex";
     });
   });
@@ -20,17 +19,14 @@ document.addEventListener("DOMContentLoaded", () => {
   buttonClose.classList.add("buttonClose");
   buttonClose.addEventListener("click", () => {
     container.style.display = "none";
-    body.style.overflow = "auto";
     overlay.style.display = "none";
   });
   permissionCloseSvg.addEventListener("click", () => {
     container.style.display = "none";
-    body.style.overflow = "auto";
     overlay.style.display = "none";
   });
   overlay.addEventListener("click", () => {
     container.style.display = "none";
-    body.style.overflow = "auto";
     overlay.style.display = "none";
   });
   container.appendChild(permissionCloseSvg);
@@ -46,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const description = document.createElement("div");
     description.style.display = "flex";
     description.style.flexDirection = "column";
-    description.style.gap = "1rem";
+    description.style.gap = "0.3rem";
     permissionItem.description.map((descriptionItem) => {
       const paragraph = document.createElement("p");
       paragraph.style.fontSize = "14px";
