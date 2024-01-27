@@ -7,7 +7,7 @@ This project encompasses a structured directory layout, catering to a modern web
 
 ### Links
 
-- Live Site URL: [TBCxUSAID](https://glitch.com/~qr-code-challenge-2)
+- Live Site URL: [TBCxUSAID](https://tbc-usaid-nine.vercel.app/)
 
 ### Project Structure
 
