@@ -76,7 +76,7 @@ Make sure you have the following installed on your machine:
 
    git clone https://github.com/olegbobokhidze/tbc-usaid.git
 
-2. Click (Ctrl+Shift+X) and search Live Server, Install and enable it
+2. Install Extension, visit Extensions or click (Ctrl+Shift+X) and search Live Server, Install and enable it
 
 
 3. In vscode Below Bottom right there will be Go Live button, click it
