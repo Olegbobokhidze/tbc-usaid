@@ -59,6 +59,30 @@ This project encompasses a structured directory layout, catering to a modern web
 
 ```
 
+# Setup and Usage
+
+Follow these steps to set up and run the project locally.
+
+## Prerequisites
+
+Make sure you have the following installed on your machine:
+
+- [Node.js](https://nodejs.org/) (for running JavaScript scripts)
+- [npm](https://www.npmjs.com/) (Node.js package manager)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   git clone https://github.com/olegbobokhidze/tbc-usaid.git
+
+2. Click (Ctrl+Shift+X) and search Live Server, Install and enable it
+
+
+3. In vscode Below Bottom right there will be Go Live button, click it
+
+
+4. Here we go, you are on Port:5500.
 
 
 ### Built with
@@ -73,3 +97,4 @@ This project encompasses a structured directory layout, catering to a modern web
 
 - [Linkedin](https://www.linkedin.com/in/olegbobokhidze/)
 - [Github](https://github.com/Olegbobokhidze)
+
