@@ -33,6 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mobileOverlay.style.display = "none";
     navbar.style.opacity = "1";
     body.style.overflow = "auto";
+    hamburgerWrapper.classList.remove("rotate");
     if (itemsWrapper) {
       itemsWrapper.remove();
       itemsWrapper = null;
@@ -79,7 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   hamburgerWrapper.addEventListener("click", toggleMenu);
-
+  mobileOverlay.addEventListener("click", closeMenu);
   window.addEventListener("resize", () => {
     if (window.innerWidth > 768 && body.classList.contains("menuOpen")) {
       closeMenu();
