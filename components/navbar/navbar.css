@@ -103,12 +103,17 @@
   border-radius: 2px;
   background-color: #dbdbdb;
   align-self: flex-start;
+  transform: translateX(0px) translateY(0px) rotate(0deg);
+  transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+
 }
 .hamburgerMiddleStick {
   width: 26px;
   height: 3px;
   border-radius: 2px;
   background-color: #dbdbdb;
+  transform: translateX(0px) translateY(0px) rotate(0deg);
+  transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 .hamburgerBottomStick {
   width: 13px;
@@ -116,25 +121,31 @@
   border-radius: 2px;
   background-color: #dbdbdb;
   align-self: flex-end;
+  transform: translateX(0px) translateY(0px) rotate(0deg);
+  transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
 }
 .rotate .hamburgerTopStick {
   transform: translateX(2px) translateY(6px) rotate(-135deg);
   opacity: 0.5;
   transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
+  margin-right: 15px;
 }
 
 .rotate .hamburgerMiddleStick {
   transform: rotate(-45deg);
   opacity: 0.5;
   transition: transform 0.33s ease-out;
+  margin-right: 15px;
+
 }
 
 .rotate .hamburgerBottomStick {
   transform: translateX(-2px) translateY(-6px) rotate(-135deg);
   opacity: 0.5;
   transition: transform 0.33s cubic-bezier(0.54, -0.81, 0.57, 0.57);
-}
+  margin-right: 15px;
 
+}
 @media only screen and (min-width: 768px) {
   .hamburgerWrapper {
     display: none;
