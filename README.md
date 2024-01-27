@@ -95,6 +95,6 @@ Make sure you have the following installed on your machine:
 
 ### Social links
 
-- [Linkedin](https://www.linkedin.com/in/olegbobokhidze/)
-- [Github](https://github.com/Olegbobokhidze)
+- [Linkedin - Oleg Bobokhidze](https://www.linkedin.com/in/olegbobokhidze/)
+- [Github - Oleg Bobokhidze](https://github.com/Olegbobokhidze)
 
